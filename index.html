@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eTrade - eCommerce html template</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-lg-2">
+          <img src="images/logo.png" alt="logo image">
+        </div>
+        <div class="col-lg-7">
+          <div class="border py-2">
+            <i class="fas fa-search ps-3"></i>
+            <input type="text" class="border-0 outline-none " placeholder=" What are you looking for?">
+          </div>
+        </div>
+        <div class="col-lg-3 text-end ">
+          <div class="dropdown ">
+            <button onclick="myFunction()" class="dropbtn">USD <i class="fa-solid fa-chevron-down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">USD</a>
+              <a href="#">AUD</a>
+              <a href="#">EUR</a>
+            </div>
+          </div>
+          <div class="dropdown2 ">
+            <button onclick="myFunction2()" class="dropbtn2">EN <i class="fa-solid fa-chevron-down"></i></button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="#">English</a>
+              <a href="#">Arabic</a>
+              <a href="#">Spanish</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav col-lg-8">
+      <div class="subnav text-center">
+        <button class="subnavbtn">Home <i class="fa-solid fa-angle-down"></i></button>
+        <div class="subnav-content">
+          <a href="">Home-Electronics</a>
+          <a href="">Home-NFT</a>
+          <a href="">Home-Fashion</a>
+          <a href="">Home-Jewellery</a>
+          <a href="">Home-Furniture</a>
+          <a href="">Home-Multipurpose</a>
+          <a href="">RTL Version</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">Shop <i class="fa-solid fa-angle-down"></i></button>
+        <div class="subnav-content">
+          <a href="">Shop With Sidebar</a>
+          <a href="">Shop No Sidebar</a>
+          <a href="">Product Variation 1</a>
+          <a href="">Product Variation 2</a>
+          <a href="">Product Variation 3</a>
+          <a href="">Product Variation 4</a>
+          <a href="">Product Variation 5</a>
+          <a href="">Product Variation 6</a>
+          <a href="">Product Variation 7</a>
+        </div>
+      </div>
+      <div class="subnav">
+        <button class="subnavbtn">Pages <i class="fa-solid fa-angle-down"></i></button>
+        <div class="subnav-content">
+          <a href="">Wishlist</a>
+          <a href="">Cart</a>
+          <a href="">Checkout</a>
+          <a href="">Account</a>
+          <a href="">Sign Up</a>
+          <a href="">Sign In</a>
+          <a href="">Forgot Password</a>
+          <a href="">Reset Password</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Coming Soon</a>
+          <a href="">404 Error</a>
+          <a href="">Typography</a>
+        </div>
+      </div>
+      <a class="about" href="#contact">About</a>
+      <div class="subnav">
+        <button class="subnavbtn">Blog<i class="fa-solid fa-angle-down"></i></button>
+        <div class="subnav-content">
+          <a href="">Blog List</a>
+          <a href="">Blog Grid</a>
+          <a href="">Standart Post</a>
+          <a href="">Gallery Post</a>
+          <a href="">Video Post</a>
+          <a href="">Audio Post</a>
+          <a href="">Quote Post</a>
+        </div>
+      </div>
+      <a class="about" href="#contact">Contact</a>
+    </div>
+    <div class="icon col-lg-2">
+      <ul class="action-list">
+        <li class="axil-search d-xl-block d-none">
+          <div class="searchborder ">
+
+          </div>
+        </li>
+        <li class="search d-xl-none d-block">
+          <a href="" class="header-search-icon" title="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="wishlist">
+          <a href="">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+        </li>
+        <li class="shopping-cart">
+          <a href="#" class="cart-dropdown-btn">
+            <span class="cart-count"></span>
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </li>
+        <div class="login-subnav">
+          <button class="login-subnavbtn"><i class="fa-regular fa-user"></i></button>
+          <div class="login-subnav-content">
+            <span class="title">QUICKLINKS</span>
+            <a href="">Blog List</a>
+            <a href="">My Account</a>
+            <a href="">Initiate return</a>
+            <a href="">Support</a>
+            <a href="">Language</a>
+            <a href="">Quote Post</a>
+            <button class="btn btn-primary d-block">Login</button>
+            <div class="login-bottom d-flex">
+              <h6 class="">No account yet?</h6>
+              <a class="link" href="">REGISTER HERE</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <button class="header-menu">
+            <span class="icon"><i class="fa-solid fa-bars"></i></span>
+            <span class="text">Categories</span>
+          </button>
+        </div>
+        <div class="mainmenu">
+          <ul class="menu">
+            <div class="fashion"></div>
+            <div class="icon">
+            </div>
+            <li><a href="#">Fashion
+                <img style="width: 20%;
+                      margin-left: -100px;
+                      margin-bottom: 2px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-01.png"
+                  alt="">
+                <i class="fa-solid fa-chevron-down down"></i>
+              </a>
+              <hr
+                style="color: #b1b1b1 !important; position: absolute; bottom: 85%; width:75%;text-align:left;margin-left:-25px">
+              <div style="background-color: white; " class="megadrop">
+                <div class="col">
+                  <h3>Men</h3>
+                  <ul>
+                    <li><a href="#">T-shirts</a>
+                    </li>
+                    <li><a href="#">Shirts</a>
+                    </li>
+                    <li><a href="#">Jeans</a>
+                    </li>
+                  </ul>
+                  <div id="shop1" class="col">
+                    <h3 id="shop1-txt">Baby</h3>
+                    <ul>
+                      <li><a href="#">Baby Cloths</a>
+                      </li>
+                      <li><a href="#">Baby Gear</a>
+                      </li>
+                      <li><a href="#">Baby Toddler</a>
+                      </li>
+                      <li><a href="#">Baby Toys</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <h3>Women</h3>
+                  <ul>
+                    <li><a href="#">Jeans</a>
+                    </li>
+                    <li><a href="#">T-shirts</a>
+                    </li>
+                    <li><a href="#">Shirts</a>
+                    </li>
+                    <li><a href="#">Tops</a>
+                    </li>
+                    <li><a href="#">Jumpsuits</a>
+                    </li>
+                    <li><a href="#">Coats</a>
+                    </li>
+                    <li><a href="#">Sweater</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3>Accessiories</h3>
+                  <ul>
+                    <li><a href="#">Handbag</a>
+                    </li>
+                    <li><a href="#">Shoes</a>
+                    </li>
+                    <li><a href="#">Wallets</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="posit">
+                  <div class="featuredd">
+                    <h3>Featured</h3>
+                    <div class="img-list">
+                      <div class="img1">
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature1.png"
+                          alt="">
+                      </div>
+                      <div class="img">
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature2.png"
+                          alt="">
+                      </div>
+                      <div>
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature3.png"
+                          alt="">
+                        <img class="img2"
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature4.png"
+                          alt="">
+                      </div>
+                      <button type="button" class="bottom-btn btn btn-primary w-100 mt-3">See All Offers</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li> <a href="#">Electronics
+                <img style="width: 17%;
+                  margin-left: -114px;
+                  margin-bottom: 5px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-02.png"
+                  alt="">
+                <i class="fa-solid fa-chevron-down down"></i>
+              </a>
+              <hr style="color: #b1b1b1 !important;
+                position: absolute; bottom: 72%; width:75%;text-align:left;margin-left:-25px">
+              <div style="top: 37px;left: 141px;background-color: white;" class="megadrop">
+                <div class="col">
+                  <h3>Men</h3>
+                  <ul>
+                    <li><a href="#">T-shirts</a>
+                    </li>
+                    <li><a href="#">Shirts</a>
+                    </li>
+                    <li><a href="#">Jeans</a>
+                    </li>
+                  </ul>
+                  <div id="baby-shop" class="col">
+                    <h3 id="baby-txt">Baby</h3>
+                    <ul>
+                      <li><a href="#">Baby Cloths</a>
+                      </li>
+                      <li><a href="#">Baby Gear</a>
+                      </li>
+                      <li><a href="#">Baby Toddler</a>
+                      </li>
+                      <li><a href="#">Baby Toys</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <h3>Women</h3>
+                  <ul>
+                    <li><a href="#">Jeans</a>
+                    </li>
+                    <li><a href="#">T-shirts</a>
+                    </li>
+                    <li><a href="#">Shirts</a>
+                    </li>
+                    <li><a href="#">Tops</a>
+                    </li>
+                    <li><a href="#">Jumpsuits</a>
+                    </li>
+                    <li><a href="#">Coats</a>
+                    </li>
+                    <li><a href="#">Sweater</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3>Accessiories</h3>
+                  <ul>
+                    <li><a href="#">Handbag</a>
+                    </li>
+                    <li><a href="#">Shoes</a>
+                    </li>
+                    <li><a href="#">Wallets</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="vertical">
+                  <div class="featured">
+                    <h3>Featured</h3>
+                    <div class="img-list">
+                      <div class="img1">
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature1.png"
+                          alt="">
+                      </div>
+                      <div class="img">
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature2.png"
+                          alt="">
+                      </div>
+                      <div>
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature3.png"
+                          alt="">
+                        <img class="img2"
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature4.png"
+                          alt="">
+                      </div>
+                      <button type="button" class="bottom-btn btn btn-primary w-100 mt-3">See All
+                        Offers</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li> <a href="#">Home Decor
+                <img style="width: 17%;
+                  margin-left: -124px;
+                  margin-bottom: 2px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-03.png"
+                  alt="">
+                <i class="fa-solid fa-chevron-down down"></i>
+              </a>
+              <hr style="color: #b1b1b1 !important;
+                position: absolute; bottom: 60%; width:75%;text-align:left;margin-left:-25px">
+              <div style="top: 103px;left: 141px;background-color: white;" class="megadrop">
+                <div class="col">
+                  <h3>Men</h3>
+                  <ul>
+                    <li><a href="#">T-shirts</a>
+                    </li>
+                    <li><a href="#">Shirts</a>
+                    </li>
+                    <li><a href="#">Jeans</a>
+                    </li>
+                  </ul>
+                  <div id="baby-shop" class="col">
+                    <h3 id="baby-txt">Baby</h3>
+                    <ul>
+                      <li><a href="#">Baby Cloths</a>
+                      </li>
+                      <li><a href="#">Baby Gear</a>
+                      </li>
+                      <li><a href="#">Baby Toddler</a>
+                      </li>
+                      <li><a href="#">Baby Toys</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col">
+                  <h3>Women</h3>
+                  <ul>
+                    <li><a href="#">Jeans</a>
+                    </li>
+                    <li><a href="#">T-shirts</a>
+                    </li>
+                    <li><a href="#">Shirts</a>
+                    </li>
+                    <li><a href="#">Tops</a>
+                    </li>
+                    <li><a href="#">Jumpsuits</a>
+                    </li>
+                    <li><a href="#">Coats</a>
+                    </li>
+                    <li><a href="#">Sweater</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3>Accessiories</h3>
+                  <ul>
+                    <li><a href="#">Handbag</a>
+                    </li>
+                    <li><a href="#">Shoes</a>
+                    </li>
+                    <li><a href="#">Wallets</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="vertical">
+                  <div class="featured">
+                    <h3>Featured</h3>
+                    <div class="img-list">
+                      <div class="img1">
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature1.png"
+                          alt="">
+                      </div>
+                      <div class="img">
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature2.png"
+                          alt="">
+                      </div>
+                      <div>
+                        <img
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature3.png"
+                          alt="">
+                        <img class="img2"
+                          src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/product-feature4.png"
+                          alt="">
+                      </div>
+                      <button type="button" class="bottom-btn btn btn-primary w-100 mt-3">See All Offers</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li> <a href="#">Medicine
+                <img style="width: 17%;
+                  margin-left: -102px;
+                  margin-bottom: 5px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-04.png"
+                  alt="">
+              </a>
+              <hr style="color: #b1b1b1 !important;
+                position: absolute; bottom: 48%; width:75%;text-align:left;margin-left:-25px">
+            <li> <a href="#">Furniture
+                <img style="width: 17%;
+                  margin-left: -102px;
+                  margin-bottom: 5px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-05.png"
+                  alt="">
+              </a>
+              <hr style="color: #b1b1b1 !important;
+                position: absolute; bottom: 36%; width:75%;text-align:left;margin-left:-25px">
+              <div class="megadrop">
+              </div>
+            </li>
+
+            <div class="megadrop">
+            </div>
+            </li>
+            <li> <a href="#">Crafts
+                <img style="width: 17%;
+                  margin-left: -85px;
+                  margin-bottom: 5px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-06.png"
+                  alt="">
+              </a>
+              <hr style="color: #b1b1b1 !important;
+                position: absolute; bottom: 23%; width:75%;text-align:left;margin-left:-25px">
+              <div class="megadrop">
+              </div>
+            </li>
+            <li> <a href="#">Accessiories
+                <img style="width: 18%;
+                  margin-left: -126px;
+                  margin-bottom: 5px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-07.png"
+                  alt="">
+              </a>
+              <hr style="color: #b1b1b1 !important;
+                position: absolute; bottom: 10%; width:75%;text-align:left;margin-left:-25px">
+              <div class="megadrop">
+              </div>
+            </li>
+            <li> <a href="#">Camera
+                <img style="width: 17%;
+                  margin-left: -94px;
+                  margin-bottom: 5px;"
+                  src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/cat-08.png"
+                  alt="">
+              </a>
+              <div class="col-lg-7 ">
+              <div class="col-lg-6"><div class="slider-box-wrap">
+        <div class="slick-content">
+          <div class="slider-left">
+            <span class="subtitle">
+              <i class="fa-regular fa-clock"></i>
+              Mega Detal
+            </span>
+            <h1 class="title">Up To 60% off Voucher</h1>
+          </div>
+          <div class="slider-right">
+            <img src="images/img13.png" alt="">
+          </div>
+        </div>
+        
+       </div></div>
+       <div class="bag col-lg-3">
+        <div class="third text-end">
+          <div class="bgimg">
+            <img id="bg" src="images/img16.png" alt="">
+          </div>
+          <h6 class="bagtitle">
+            <a href="single-product.html">Yantiti Leather Bags</a>
+          </h6>
+          <span id="pricee" class="price">$29.99</span>
+      </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="d-md-flex align-items-end mt-3 flash-sale-section">
+      <div class="section-title-wrapper">
+        <span class="title-highlighter highlighter-primary">
+          <i class="fas fa-fire"></i>
+           Today's
+        </span>
+        <h2 class="title">Flash Sales</h2>
+      </div>
+    </div>
+    
+  </div>
+  <div class="slider overflow-hidden ms-5 me-5">
+          
+    <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-02.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Level 20 RGB Cherry</p>
+         <div class="price">
+          <span class="price-old-price">$80</span>
+          <span class="price current-price">$60</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-19.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Sky Blue T-Shirt</p>
+         <div class="price">
+          <span class="price-old-price">$40</span>
+          <span class="price current-price">$40</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-6.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Women's Stylish Hat</p>
+         <div class="price">
+          <span class="price-old-price">$30</span>
+          <span class="price current-price">$24</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/jewellery/product-4.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Diamond Ring</p>
+         <div class="price">
+          <span class="price-old-price">$50</span>
+          <span class="price current-price">$40</span>
+      </div>
+       </div>
+     </div>
+     
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/furniture/product-5.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Neue Sofa Chair</p>
+         <div class="price">
+          <span class="price-old-price">$60</span>
+          <span class="price current-price">$50</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">3D wireless headset</p>
+         <div class="price">
+          <span class="price-old-price">$30</span>
+          <span class="price current-price">$24</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/furniture/product-4.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Men's Winter Jacket</p>
+         <div class="price">
+          <span class="price-old-price">$50</span>
+          <span class="price current-price">$40</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-3.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Leather Hand Bag</p>
+         <div class="price">
+          <span class="price-old-price">$60</span>
+          <span class="price current-price">$50</span>
+      </div>
+       </div>
+     </div>
+  </div>
+
+  <div class="container">
+    <div id="browsecat">
+      <i class="fa-solid fa-tags"></i> Categories
+    <h5>Browse by Category</h5>
+    </div>
+  
+    <div class="corusel-category d-flex overflow-hidden">
+      
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-4.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Phones</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-5.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Computers</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-11.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Accessories</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-6.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Laptops</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-2.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Monitors</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-7.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Networking</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-8.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">PC Gaming</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-1.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Smartwatches</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+       <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-10.png" class="card-img-top" alt="...">
+       </div>
+        <div class="card-body">
+          <p class="card-text">Camera & Photo</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-8.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Video Games</p>
+        </div>
+      </div>
+  
+      <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-1.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Sports</p>
+        </div>
+      </div>
+  
+       <div class="card1">
+        <div class="img">
+        <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/categories/elec-9.png" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <p class="card-text">Headphones</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="d-md-flex align-items-end mt-3 flash-sale-sectionn">
+      <div class="section-title-wrapper">
+        <span class="title-highlighter highlighter-primary">
+          <i class="fa-solid fa-basket-shopping"></i>
+          This Month
+        </span>
+        <h2 class="title">Best Selling Products</h2>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="slider overflow-hidden ms-5 me-5">
+          
+    <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-05.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Bass Meets Clarity</p>
+         <div class="price">
+          <span class="price-old-price">$30</span>
+          <span class="price current-price">$50</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-15.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Nike Shoe</p>
+         <div class="price">
+          <span class="price-old-price">$80</span>
+          <span class="price current-price">$100</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/furniture/product-24.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Stylish</p>
+         <div class="price">
+          <span class="price-old-price">$40</span>
+          <span class="price current-price">$24</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/jewellery/product-10.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Diamond Bracled</p>
+         <div class="price">
+          <span class="price-old-price">$40</span>
+          <span class="price current-price">$100</span>
+      </div>
+       </div>
+     </div>
+     
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-25.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Smart Watch</p>
+         <div class="price">
+          <span class="price-old-price">$30</span>
+          <span class="price current-price">$35</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Women's Cosmetics</p>
+         <div class="price">
+          <span class="price-old-price">$80</span>
+          <span class="price current-price">$100</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/jewellery/product-12.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Denim Black Jacket</p>
+         <div class="price">
+          <span class="price-old-price">$20</span>
+          <span class="price current-price">$40</span>
+      </div>
+       </div>
+     </div>
+  
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-13.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Diamond Braclet</p>
+         <div class="price">
+          <span class="price-old-price">$30</span>
+          <span class="price current-price">$31</span>
+      </div>
+       </div>
+     </div>
+    
+  </div>
+  
+  <div class="axil-poster-countdown">
+    <div class="container">
+      <div class="poster-countdown-wrap bg-lighter">
+        <div class="row">
+          <div class="col-xl-5 col-lg-6">
+            <div class="container">
+              <div class="d-md-flex align-items-end mt-3 flash-sale-sectionnn">
+                <div class="section-title-wrapper">
+                  <span class="title-highlighter highlighter-primary">
+                    <i class="fa-solid fa-headphones"></i>
+                    Don’t Miss!!
+                  </span>
+                  <h2 class="title">Enhance Your <br> Music Experience</h2>
+                  <div id="timer">
+                    <span id="days" class="days2">0</span>Day
+                    <span id="hours">00</span>Hrs
+                    <span id="minutes">00</span>Min
+                    <span id="seconds">00</span>Sec
+                  </div>
+                  <button class="btn btn-primary py-5 p-5">Check It Out !</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-6">
+              <div class="poster-countdown-thumbnail">
+                <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/poster/poster-03.png" alt="Poster Product">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="d-md-flex align-items-end mt-3 flash-sale-sectionn">
+      <div class="section-title-wrapper">
+        <span class="title-highlighter highlighter-primary">
+          <i class="fa-solid fa-store"></i>
+          Our Products
+        </span>
+        <h2 class="title">Explore our Products</h2>
+      </div>
+    </div>
+  </div>
+  <div class="slider overflow-hidden ms-5 me-5">
+    <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Bass Meets Clarity</p>
+         <div class="price">
+          <span class="price-old-price">$49.99</span>
+          <span class="price current-price">$29.99</span>
+      </div>
+       </div>
+     </div>
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-15.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Nike Shoe</p>
+         <div class="price">
+          <span class="price-old-price">$49.99</span>
+          <span class="price current-price">$29.99</span>
+      </div>
+       </div>
+     </div>
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/furniture/product-1.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Stylish</p>
+         <div class="price">
+          <span class="price-old-price">$49.99</span>
+          <span class="price current-price">$29.99</span>
+      </div>
+       </div>
+     </div>
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/jewellery/product-3.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Diamond Bracled</p>
+         <div class="price">
+          <span class="price-old-price">$49.99</span>
+          <span class="price current-price">$29.99</span>
+      </div>
+       </div>
+     </div>
+  </div>
+  <div class="slider overflow-hidden ms-5 me-5">
+    <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-10.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Bass Meets Clarity</p>
+         <div class="price">
+          <span class="price-old-price">$30</span>
+          <span class="price current-price">$50</span>
+      </div>
+       </div>
+     </div>
+     <div class="card">
+      <div class="img position-relative">
+       <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/fashion/product-16.png" class="card-img-top" alt="...">
+      </div>
+      <div class="hover position-absolute">
+        <i class="fa-regular fa-heart"></i>
+         <button class="btn">Add To Cart</button>
+         <i class="fa-regular fa-eye"></i>
+       </div>
+       <div class="card-body">
+         <p class="card-text text-center">Nike Shoe</p>
+         <div class="price">
+          <span class="price-old-price">$80</span>
+          <span class="price current-price">$100</span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+     <div class="img position-relative">
+      <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-07.png" class="card-img-top" alt="...">
+     </div>
+     <div class="hover position-absolute">
+       <i class="fa-regular fa-heart"></i>
+        <button class="btn">Add To Cart</button>
+        <i class="fa-regular fa-eye"></i>
+      </div>
+      <div class="card-body">
+        <p class="card-text text-center">Stylish</p>
+        <div class="price">
+         <span class="price-old-price">$40</span>
+         <span class="price current-price">$24</span>
+     </div>
+      </div>
+    </div>
+    <div class="card">
+     <div class="img position-relative">
+      <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/product/furniture/product-15.png" class="card-img-top" alt="...">
+     </div>
+     <div class="hover position-absolute">
+       <i class="fa-regular fa-heart"></i>
+        <button class="btn">Add To Cart</button>
+        <i class="fa-regular fa-eye"></i>
+      </div>
+      <div class="card-body">
+        <p class="card-text text-center">Diamond Bracled</p>
+        <div class="price">
+         <span class="price-old-price">$40</span>
+         <span class="price current-price">$100</span>
+     </div>
+      </div>
+    </div>
+ </div>
+ <div class="container">
+   <div id="allproducts" class="vievallproduct">
+     <button class="btn btn-outline-secondary biton1">View All Products</button>
+   </div>
+ </div>
+ 
+ <div class="axil-testimoial-area axil-section-gap bg-vista-white">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="title-highlighter highlighter-secondary"> <i
+          class="fa-solid fa-quote-left"></i>Testimonials</span>
+      <h2 class="title">Users Feedback</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="textbox">
+          <div class="text-d">
+            <p>“ It’s amazing how much easier it has been to
+              meet new people and create instantly non
+              connections. I have the exact same personal
+              the only thing that has changed is my mind
+              set and a few behaviors. “
+            </p>
+
+          </div>
+          <div class="test-down mt-5 d-flex mt-5">
+            <div class="image-left">
+              <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-1.png"
+                alt="">
+            </div>
+            <div class=" text-right pt-1 ps-3">
+              <span class="d-block">Head of idea</span>
+              <h5>James C.Anderson</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="textbox">
+          <div class="text-d">
+            <p>“ It’s amazing how much easier it has been to
+              meet new people and create instantly non
+              connections. I have the exact same personal
+              the only thing that has changed is my mind
+              set and a few behaviors. “
+            </p>
+
+          </div>
+          <div class="test-down mt-5 d-flex mt-5">
+            <div class="image-left">
+              <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-2.png"
+                alt="">
+            </div>
+            <div class=" text-right pt-1 ps-3">
+              <span class="d-block">Head of idea</span>
+              <h5>James C.Anderson</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="textbox">
+          <div class="text-d">
+            <p>“ It’s amazing how much easier it has been to
+              meet new people and create instantly non
+              connections. I have the exact same personal
+              the only thing that has changed is my mind
+              set and a few behaviors. “
+            </p>
+
+          </div>
+          <div class="test-down mt-5 d-flex mt-5">
+            <div class="image-left">
+              <img src="https://new.axilthemes.com/demo/template/etrade/assets/images/testimonial/image-3.png"
+                alt="">
+            </div>
+            <div class=" text-right pt-1 ps-3">
+              <span class="d-block">Head of idea</span>
+              <h5>James C.Anderson</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="axil-newsletter-area axil-section-gap ">
+  <div class="container">
+    <div class="etrade bg.img">
+      <div class="newsletter-content">
+        <span class="title-highlighter highlighter-primary2"><i
+            class="fa-regular fa-envelope-open"></i>Newsletter</span>
+        <h2 class="title">Get weekly update</h2>
+        <div class="input-group newsletter-form">
+          <div class=" newsletter-inner">
+            <input placeholder="example@gmail.com" type="text">
+          </div>
+          <button type="submit" class="axil-btn ">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+<div class="row  ">
+  <div class="services d-flex">
+    <div class="col-lg-3">
+      <div class="service-box service-style-2 d-flex">
+        <div class="icon">
+          <img src="images/img3.png" alt="Service">
+        </div>
+        <div class="content mt-5">
+          <h6 class="title">Fast &amp; Secure Delivery</h6>
+          <p>Tell about your service.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="service-box service-style-2 d-flex">
+        <div class="icon">
+          <img src="images/img4.png" alt="Service">
+        </div>
+        <div class="content mt-5">
+          <h6 class="title">Money Back Guarantee</h6>
+          <p>Within 10 days.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="service-box service-style-2 d-flex">
+        <div class="icon">
+          <img src="images/img5.png" alt="Service">
+        </div>
+        <div class="content mt-5">
+          <h6 class="title">24 Hour Return Policy</h6>
+          <p>No question ask.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="service-box service-style-2 d-flex">
+        <div class="icon">
+          <img src="images/img6.png" alt="Service">
+        </div>
+        <div class="content mt-5">
+          <h6 class="title">Pro Quality Support</h6>
+          <p>24/7 Live support.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row d-flex">
+
+<div class="col-lg-3 col-sm-6">
+  <div class="axil-footer-widget">
+    <h5 class="widget-title">Support</h5>
+    <div class="inner">
+      <p>685 Market Street, <br>
+        Las Vegas, LA 95820, <br>
+        United States.
+      </p>
+      <ul class="support-list-item">
+        <li><a href="mailto:example@domain.com"><i class="fa-regular fa-envelope-open"></i> example@domain.com</a></li>
+        <li><a href="tel:(+01)850-315-5862"><i class="fa-solid fa-phone"></i> (+01) 850-315-5862</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6">
+  <div class="axil-footer-widget">
+    <h5 class="widget-title">Account</h5>
+    <div class="inner">
+      <ul>
+        <li><a href="my-account.html">My Account</a></li>
+        <li><a href="sign-up.html">Login / Register</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="wishlist.html">Wishlist</a></li>
+        <li><a href="shop.html">Shop</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6">
+  <div class="axil-footer-widget">
+    <h5 class="widget-title">Quick Link</h5>
+    <div class="inner">
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms Of Use</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6">
+  <div class="axil-footer-widget">
+    <h5 class="widget-title">Download App</h5>
+    <div class="inner">
+      <span>Save $3 With App &amp; New User only</span>
+      <div class="download-btn-group">
+        <div class="qr-code">
+          <img src="images/img7.png" alt="Axilthemes">
+        </div>
+        <div class="app-link">
+          <a href="#">
+            <img src="images/img8.png" alt="App Store">
+          </a>
+          <a href="#">
+            <img src="images/img9.png" alt="Play Store">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="copyright-area copyright-default separator-top">
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col-xl-4">
+            <div class="social-share">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-12">
+            <div class="copyright-left d-flex flex-wrap justify-content-center">
+                <ul class="quick-link">
+                    <li>© 2022. All rights reserved by <a target="_blank" href="https://axilthemes.com/">Axilthemes</a>.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-12">
+            <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
+                <span class="card-text">Accept For</span>
+                <ul class="payment-icons-bottom quick-link d-flex">
+                    <li><img src="images/img10.png" alt="paypal cart"></li>
+                    <li><img src="images/img11.png" alt="paypal cart"></li>
+                    <li><img src="images/img12.png" alt="paypal cart"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+  </header>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
